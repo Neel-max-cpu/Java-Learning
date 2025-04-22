@@ -30,3 +30,9 @@ controller - mediator
 
 // run java spring boot -- go the root foler - then
 mvn spring-boot:run
+
+
+//if port is already is in use --- then in cmd
+netstat -ano | findstr :8080
+// 12345 - replace it wiht listening address(get it from above code)
+taskkill /PID 12345 /F
