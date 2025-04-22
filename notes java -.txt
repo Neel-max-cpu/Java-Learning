@@ -1,0 +1,25 @@
+https://youtu.be/kt3wUPIDkx4?si=p0ZLOYnaX88IAtgr
+extensions --
+
+
+install --
+https://youtu.be/R6MoDMASwag?si=wxeuzb5bHU-kcGMd
+
+program --
+https://youtu.be/5LlfwQ4xzXc?si=HL8uoiv6ncSPRogd
+
+
+// maven --
+https://youtu.be/YTvlb6eny_0?si=lxUZ4DXhR0woQLVn
+
+
+// java spring boot see from there tutorial --
+https://youtu.be/gJrjgg1KVL4?si=RwQmMbw7fyzmEPAG
+
+// dependencies -- 
+1) maven central 
+spring-boot-starter-web(then copy paste)[do this] -- and best practice remove the version tag
+2) or pom.xml -> go to dependencies tag then right click add a starter
+
+//some notes --
+spring mvc (mvc - model, view, controller)
