@@ -41,14 +41,20 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- spring-boot-starter-web -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>		
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		
 
-		
-		
+		<!-- spring-boot-devtools -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+		<!--	optional tag means only valid for development won't go in production		-->
+			<optional>true</optional>
+		</dependency>
+
 
 	</dependencies>
 
