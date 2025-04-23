@@ -56,3 +56,16 @@ mvn spring-boot:run
 netstat -ano | findstr :8080
 // 12345 - replace it wiht listening address(get it from above code)
 taskkill /PID 12345 /F
+
+
+// HOW TO REFACTOR A CODE--
+1)select a code
+2)go to up bar then Refactor
+3) then Extract/introduce then interface
+4) name it below there is select it then refactor - done!
+
+
+// some shortcuts ---
+shift+shift (o go anywhere in the file search everywhere)
+ctrl+. (to bring up context menu in videos alt+enter)
+ctrl+, (to bring up settings)
