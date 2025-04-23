@@ -16,6 +16,14 @@ https://youtu.be/YTvlb6eny_0?si=lxUZ4DXhR0woQLVn
 // java spring boot see from there tutorial -- and use intellij to save brain cells
 https://youtu.be/gJrjgg1KVL4?si=RwQmMbw7fyzmEPAG
 
+
+// go to spring initiallizer - start.spring.io to create the spring app
+1) give dependency - spring web(for restfull apis)
+
+
+// FOLDER STRUCTURE ---
+-- Controllers, Services, Entity(where db models are created)
+
 // dependencies -- 
 1) maven central 
 spring-boot-starter-web(then copy paste)[do this] -- and best practice remove the version tag
@@ -70,3 +78,10 @@ shift+shift (o go anywhere in the file search everywhere)
 ctrl+. (to bring up context menu in videos alt+enter)
 ctrl+, (to bring up settings)
 alt+insert (to bring up generate context menu)
+
+
+// some imp dependecy -
+1) spring web when making the project
+2) spring-boot-starter-validation
+3) jakarta.persistence-api
+4) spring-boot-starter-data-jpa
