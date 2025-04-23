@@ -2,12 +2,16 @@ package com.neel.store;
 
 public class OrderService {
 
+
     private  PaymentService paymentService;
 
     // correct way to inject dependency is via constructor --
+    // not using when using setter --
+    /*
     public OrderService(PaymentService paymentService){
         this.paymentService = paymentService;
     }
+    */
     public void placeOrder(){
         // here dependency injection is not used --
         // here order class is dependent on stripe payment service
@@ -18,5 +22,10 @@ public class OrderService {
 
         // after refactoring code becomes --
         paymentService.processPayment(1000);
+    }
+
+    // setter
+    public void setPaymentService(PaymentService paymentService) {
+        this.paymentService = paymentService;
     }
 }

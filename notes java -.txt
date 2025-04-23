@@ -69,3 +69,4 @@ taskkill /PID 12345 /F
 shift+shift (o go anywhere in the file search everywhere)
 ctrl+. (to bring up context menu in videos alt+enter)
 ctrl+, (to bring up settings)
+alt+insert (to bring up generate context menu)
