@@ -27,9 +27,29 @@ model - data+logic
 view - what the user sees(html css js is rendered)
 controller - mediator
 
+// opening a java spring boot file --
+1) in the right hand side bar there is mavan - click on it
+2) go to mavan store
+3) go to lifecycle file
+4) right click on clean and run mavan build
+5) right click on packagae and run mavan build
+6) right click on install and run mavan build
 
-// run java spring boot -- go the root foler - then
+
+// run java spring boot -- go the root foler - then -- if runing from terminal
 mvn spring-boot:run
+
+// if want to run from the run button(recomanded)
+1) open the project
+2) go to the main file(generally under src/main/java/com.neel.store(main folder that gets created)
+3) the file under it (in the above case) StoreApplication.java[then there will be run option]
+
+//IF WANT TO RUN FROM ANY FILE ---
+1) go the the side drop down (left side of run)
+2) edit configuration
+3) create a new and name it(here named as store)
+4) build and run - java 24(latest) and side select the StoreApplication.java(inside - src/main/java/com.neel.store)
+5) apply then ok done!
 
 
 //if port is already is in use --- then in cmd
